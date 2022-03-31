@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    
+    font-family: 'Hurricane', cursive;
+    font-size: 90px;
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 24px;
+}
+
+strong{
+    color:red;
+}
+
+p strong{
+    background-color: orange;
+    color:white;
+    font-style: normal;
+}
+
+.parrafo-destacado{
+    color:salmon;
+    font-size: 30px;
+    line-height: 38px;
+}
+.parrafo-destacado em {
+    color:blue;
+    text-transform: uppercase;
+}
