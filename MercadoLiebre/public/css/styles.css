@@ -1,0 +1,91 @@
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color:#EAC926 ;
+}
+
+p{
+    font-size: 12px;
+}
+
+.titulo-Seccion {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripciones{
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    padding: 0px;
+}
+
+.subtitulo{
+  text-align: center;
+}
+
+.boton-burguer{
+    background-color:#1259c3;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    align-content: center;
+    padding: 0px 6px;
+
+    
+}
+
+.burguer-menu{
+    margin-left: 50%;
+    height: 20px;
+}
+
+#burguer{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    line-height: normal;
+}
+
+h3{
+    line-height: 0px;
+    margin-bottom: auto;
+}
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    text-align: left;
+}
