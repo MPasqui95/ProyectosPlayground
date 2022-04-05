@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: green;
     font-family: 'Playfair Display', serif;
@@ -36,4 +40,112 @@ p strong{
 .parrafo-destacado em {
     color:blue;
     text-transform: uppercase;
+}
+
+.contenedor01{
+    width: 90%;
+    padding: 20px;
+    border: solid 5px black;
+    background-color: salmon;
+}
+
+.contenedor02{
+    width: 90vw;
+    padding: 20px;
+    border: solid 5px yellow;
+    background-color: blueviolet;
+}
+
+.oculto {
+    display: none;
+    font-size: 30px;
+    color:rgb(140, 16, 16);
+}
+
+.contenedorEj{
+    width: 80%;
+    max-width: 1200px;
+    padding: 15px;
+    border: 5px dashed orangered;
+    background-color: sandybrown;
+    margin: auto;
+}
+
+@media(min-width: 570px){
+    .contenedorEj{
+        width: 90%;
+        border: 5px solid pink;
+        background-color:cyan;
+        color: olive;
+    } 
+}
+
+@media(min-width: 900px){
+    .contenedorEj{
+        color: #ff0000;
+    } 
+    .oculto{
+        display: block;
+    }
+}
+
+/*Standarts Media Queries
+Min 576
+Min 768
+Min 992
+Min 1200
+
+Es importantes que mas alla de esto apliquemos los media queries 
+en funcion del proyecto y como se ve el mismo dentro del navegador.
+*/
+
+
+.otroContenedor{
+    width: 90%;
+    background-color: pink;
+}
+
+.yAunHayMas{
+    width: 50%;
+    background-color: pink;
+
+}
+
+@media(min-width: 576px){
+    .otroContenedor,
+    .yAunHayMas{
+        width: 70%;
+        margin: auto;
+        background-color: yellow;
+
+    
+    }
+}
+
+@media(min-width: 768px){
+    body {
+        background-color: white;
+    }
+    .otroContenedor{
+        background-color: rebeccapurple;
+    }
+    
+    .yAunHayMas{
+        background-color: royalblue;
+    }
+}
+
+
+@media(min-width: 992px){
+    .otroContenedor,
+    .yAunHayMas{
+        border: 10px solid black;
+    }
+}
+
+@media(min-width: 1200px){
+    .otroContenedor,
+    .yAunHayMas{
+        max-width: 1100px;
+    }
 }
