@@ -22,8 +22,20 @@ header{
 }
 
 .menu-header{
-    list-style-type: none;
     display: none;
+}
+
+.menu-header ul{
+    list-style: none;
+
+}
+
+.menu-header a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 3px 0px;
+    font-size: 17px;
 }
 
 .logo {
@@ -58,14 +70,10 @@ p{
     
 }
 
-ul li a {
-    text-decoration: none;
-    color: black;
-}
-
 ul{
     padding: 0px;
 }
+
 .banner img{
     width: 100%;
 }
@@ -102,23 +110,25 @@ ul{
     
 }
 
-footer{
+.pie-pagina{
     text-align: center;
     line-height: normal;
 }
 
-h3{
-    line-height: 0px;
+.titulo-foot{
+    line-height: normal;
     margin-bottom: auto;
 }
 
-footer i{
+.pie-pagina i{
     font-size: 2em;
     margin-bottom: 10px;
 }
 
 .copyright{
+    font-size: 12px;
     text-align: left;
+    font-weight: normal;
 }
 
 main{
@@ -158,6 +168,7 @@ main section article img{
     padding: 10px;
 }
 
+
 /* tablets */
 @media (min-width: 361px){
     .descripciones{
@@ -170,6 +181,9 @@ main section article img{
         display: block;
     }
     .boton-burguer{
+        display: none;
+    }
+    .espacio{
         display: none;
     }
 }
@@ -188,4 +202,61 @@ main section article img{
     .boton-burguer{
         display: none;
     }
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .subtitulo{
+        max-width: 350px;
+        text-align: right;
+        padding-right: 4%;
+    }
+    .menu-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-header ul {
+        display: flex;
+    }
+    .menu-header li {
+        margin: 0 5px;
+    }
+    .espacio{
+        display: none;
+    }
 }
+
+@media(min-width: 1200px){
+    .main-header-top-bar,
+    .menu-header{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .menu-header li{
+        margin: 0 10px;
+    }
+    .menu-header a{
+        font-size: 20px;
+    }
+    .menu-header{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .subtitulo{
+        max-width: none;
+        font-size: 24px;
+        font-weight: 400px;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+    }
+    .logo{
+        font-size: 0px;
+    }
+    .espacio{
+        display: none;
+    }
+
+}
+
