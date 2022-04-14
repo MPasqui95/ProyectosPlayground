@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5c4a94bbfc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" type="image/png" href="/img/MercadoLibre.png" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <br />
+      <div class="main-header-top-bar">
+        <div class="logo">
+          <img src="./img/logo-mercado-liebre.svg" alt="Mercado Liebre" />
+        </div>
+
+        <br />
+        <br />
+        <div class="buscador">
+          <input type="Buscar" placeholder="Buscar productos, marcas" /><button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <h2 class="subtitulo">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          Comprá en cuotas y sin tarjeta de crédito
+        </h2>
+      </div>
+      <nav class="menu-header">
+        <ul class="left-navbar">
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+        <br />
+        <ul class="rigth-navbar">
+          <li>
+            <a href="/register"
+              >Creá tu cuenta <i class="fa-solid fa-id-card"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Ingresá <i class="fa-solid fa-right-to-bracket"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Mis Compras <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="burguer-menu">
+        <button class="boton-burguer">
+          <i id="burguer" class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <br class="espacio" />
+    </header>
+
+    <main>
+      <form action="/" method="POST" class="registro">
+        <div>
+          <label for="nombre">Nombre y Apellido</label>
+          <input type="text" id="nombre" name="nombre" />
+        </div>
+
+        <div>
+          <label for="usuario">Nombre de Usuari@</label>
+          <input type="text" id="usuario" name="usuario" />
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" />
+        </div>
+
+        <div>
+          <label for="fecha">Fecha de Nacimiento</label>
+          <input type="date" id="fecha" name="fecha" />
+        </div>
+
+        <div>
+          <label for="domicilio">Domicilio</label>
+          <input type="text" id="domicilio" name="domicilio" />
+        </div>
+
+        <div>
+          <label for="perfil">Perfil de Usuario</label>
+          <input type="radio" id="perfil" name="perfil" value="comprador" />
+          Comprador
+          <input type="radio" id="perfil" name="perfil" value="vendedor" />
+          Vendedor
+        </div>
+
+        <div>
+          <label for="intereses">Categorías de Interes</label> <br />
+
+          <label value="electro"
+            ><input type="checkbox" id="intereses" name="intereses" />
+            Electro</label
+          >
+          <br />
+          <label value="moda"
+            ><input type="checkbox" id="intereses" name="intereses" />
+            Moda</label
+          >
+          <br />
+          <label value="hogar"
+            ><input type="checkbox" id="intereses" name="intereses" />
+            Hogar</label
+          >
+          <br />
+
+          <label value="jugueteria"
+            ><input type="checkbox" id="intereses" name="intereses" />
+            jugueteria</label
+          >
+          <br />
+          <label value="vidaSana"
+            ><input type="checkbox" id="intereses" name="intereses" /> Vida
+            Sana</label
+          >
+          <br />
+        </div>
+
+        <div>
+          <label for="foto">Foto de Usuario</label>
+          <input type="file" id="foto" name="foto" accept=".jpg/.jpeg/.png" />
+        </div>
+
+        <div>
+          <label for="contraseña">Contraseña</label>
+          <input type="password" id="contraseña" name="contraseña" />
+        </div>
+
+        <div>
+          <label for="confirmar">Confirmar Contraseña</label>
+          <input type="password" id="confirmar" name="confirmar" />
+        </div>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
