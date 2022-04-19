@@ -398,3 +398,167 @@ top: -15px;
 
 }
 
+/*====================================== Register.html ============================================ */
+
+.mainRegister{
+    text-align: center;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 15%;
+    font-size: 23px;
+}
+
+.registro{
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+
+.datos{
+    margin: 15px;
+    
+}
+
+.texto{
+    
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 23px;
+}
+
+.NomApe{
+    padding-right: 10px;
+}
+
+.NUsuario{
+    padding-left: 13px;
+}
+
+.mail{
+    padding-right: 155px;
+}
+
+.fecha{
+    padding-left: 23px;
+    text-align: center;
+}
+
+#fecha{
+    text-align: center;
+
+}
+
+.domicilio{
+    padding-right: 120px;
+}
+
+.perfil{
+    padding-top: 25px;
+    padding-left: 23px;
+}
+
+.perfilUsuario{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.vendedor{
+    margin-left: 26px;
+}
+
+.CatInt{
+    padding-left: 23px;
+}
+
+.categorias{
+    padding: 10px auto;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40%;
+    
+}
+.categoriaInteres{
+    margin: 20px;
+}
+
+.foto{
+    padding-left: 23px;
+}
+
+#foto{
+    padding: 10px;
+}
+
+.contra{
+    padding-right: 95px;
+}
+
+.confirm{
+    padding-left: 40px;
+    text-align: left;
+}
+
+#confirmar{
+    margin-bottom: 8px;
+}
+
+
+
+/*====================================== login.html ============================================ */
+
+.login{
+    text-align: center;
+    background-color: #fff;
+    width: auto;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+.usuarioLogin{
+    padding: 20px;
+}
+
+#usuarioLogin{
+    border-radius: 5px;
+    opacity: 0.4;
+    width: 90%;
+
+
+}
+
+.passLogin{
+    padding: 20px;
+}
+
+#contraseñaLogin{
+    border-radius: 5px;
+    opacity: 0.4;
+    width: 90%;
+
+}
+
+.enviarLogin{
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 85%;
+    border: none;
+    color: #fff;
+    margin: 10px auto;
+
+}
+
+.textoLogin{
+    padding: 10px;
+    font-size: 20px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+/* input:invalid:required{
+    background-image: linear-gradient(to right, pink, rgb(238, 144, 144));
+} */
+
+input:valid{
+    border: 2px solid black;
+}
