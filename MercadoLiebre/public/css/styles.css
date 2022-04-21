@@ -39,13 +39,13 @@ header{
 }
 
 .logo {
-    width: 38%;
+    width: 50%;
     margin-right: 3px;
     
 }
 
 .buscador{
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -275,7 +275,7 @@ top: -15px;
     .buscador{
         display: flex;
         justify-content: center;
-        height: 80%;
+        height: 50%;
     }
 
     
@@ -519,6 +519,18 @@ top: -15px;
     padding-left: 23px;
 }
 
+#nombre,
+#usuario,
+#email,
+#fecha,
+#domicilio,
+#foto,
+#contraseña,
+#confirmar{
+    
+    border-radius: 5px;
+}
+
 #foto{
     padding: 10px;
     width: 50%;
@@ -590,6 +602,7 @@ top: -15px;
         padding-left: 20px;
         font-size: 25px;
         height: 50px;
+        border-radius: 5px;
     }
     #fecha{
         text-align: left;
@@ -660,7 +673,7 @@ top: -15px;
     padding: 10px;
     font-size: 20px;
 }
-
+/* 
 input:invalid{
     border: 2px solid red;
 }
@@ -671,7 +684,7 @@ input:invalid{
 
 input:valid{
     border: 2px solid black;
-}
+} */
 
 /* desktop */
 @media (min-width: 769px){
