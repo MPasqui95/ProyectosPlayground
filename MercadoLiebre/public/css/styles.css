@@ -30,12 +30,12 @@ header{
 }
 
 .logo{
-    width: 50%;
+    width: 37%;
     margin-right: 3px;
 }
 
 .buscador{
-    width: 70%;
+    width: 59%;
 }
 
 .main-header-top-bar{
@@ -191,6 +191,7 @@ article{
 
 .objeto-foot{
     margin: 25px auto;
+    padding: 0px 30px;
 }
 
 
