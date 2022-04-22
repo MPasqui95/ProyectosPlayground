@@ -6,7 +6,7 @@ const publicPath = path.join (__dirname, "./public");
 app.use (express.static(publicPath));
 
 app.listen (process.env.PORT || 3000, () => {
-    console.log("Servidor Corriendo");
+    console.log("Servidor Funcionando");
 });
 
 app.get ("/", (req, res) => {
